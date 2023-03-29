@@ -229,7 +229,6 @@ body::-webkit-scrollbar {
         }
 
         footer {
-          background-color: rgba($color: $color-evening, $alpha: 0);
           color: $color-white;
           text-align: center;
           width: 100%;
@@ -427,6 +426,12 @@ body::-webkit-scrollbar {
           color: $color-white;
         }
       }
+
+      footer {
+        background-color: rgba($color: $color-evening, $alpha: 1);
+        color: rgba($color: $color-white, $alpha: 1);
+        text-align: center;
+      }
     }
   }
 
@@ -447,12 +452,18 @@ body::-webkit-scrollbar {
         width: 90%;
         height: auto;
       }
+
+      footer {
+        background-color: rgba($color: $color-evening, $alpha: 1);
+        color: rgba($color: $color-white, $alpha: 1);
+        text-align: center;
+      }
     }
   }
 
   footer {
-    background-color: $color-evening;
-    color: $color-white;
+    background-color: rgba($color: $color-evening, $alpha: 0);
+    color: rgba($color: $color-white, $alpha: 0);
     text-align: center;
   }
 
