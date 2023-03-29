@@ -3,10 +3,10 @@ import { defineStore } from 'pinia'
 export const useCounterStore = defineStore({
   id: 'data',
   state: () => ({
-    statuspage: false,
+    statuspage: false
   }),
   actions: {
-    setstatuspage(text){
+    setstatuspage(text) {
       this.statuspage = text
     }
   }
