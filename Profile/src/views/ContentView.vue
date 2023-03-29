@@ -1,45 +1,33 @@
 <template>
-  <div
-    class="portfolio"
-    :style="{
-      display: useDatastore.statuspage ? 'none' : ''
-    }"
-  >
-    <img src="../picture/Blue and Black Modern Resume.jpg" alt="portfolio" />
+  <div class="portfolio" :style="{
+    display: useDatastore.statuspage ? 'none' : ''
+  }">
+  <img src="https://files.fm/thumb_show.php?i=vzedwdkqq" alt="">
   </div>
-  <div
-    class="home-profile"
-    :style="{
-      display: useDatastore.statuspage == 'home' ? '' : 'none'
-    }"
-  >
+  <div class="home-profile" :style="{
+    display: useDatastore.statuspage == 'home' ? '' : 'none'
+  }">
     <div class="profile-img">
-      <img src="../picture/Profile Icon.jpg" alt="Profile" />
+      <img src="https://st2.depositphotos.com/1104517/11967/v/950/depositphotos_119675554-stock-illustration-male-avatar-profile-picture-vector.jpg" alt="">
     </div>
     <div class="profile-content">
       <h2>Hi!, My name is Ariyavas Phaipong</h2>
       <p>I'm looking for a back-end job, is anyone interested in viewing my portfolio?</p>
     </div>
   </div>
-  <div
-    :style="{
-      display: useDatastore.statuspage == 'skill' ? '' : 'none'
-    }"
-  >
+  <div :style="{
+    display: useDatastore.statuspage == 'skill' ? '' : 'none'
+  }">
     <skillVue />
   </div>
-  <div
-    :style="{
-      display: useDatastore.statuspage == 'about' ? '' : 'none'
-    }"
-  >
+  <div :style="{
+    display: useDatastore.statuspage == 'about' ? '' : 'none'
+  }">
     <aboutVue />
   </div>
-  <div
-    :style="{
-      display: useDatastore.statuspage == 'project' ? '' : 'none'
-    }"
-  >
+  <div :style="{
+    display: useDatastore.statuspage == 'project' ? '' : 'none'
+  }">
     <projectVue />
   </div>
 </template>
