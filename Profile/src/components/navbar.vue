@@ -7,7 +7,7 @@
         </li>
         <li :class="skill ? 'active' : ''">
             <a @click="SkillhandleClick">
-                Skill
+                Knowledge
             </a>
         </li>
         <li :class="about ? 'active' : ''">

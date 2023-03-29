@@ -1,5 +1,5 @@
 <template>
-    <div class="profile">
+    <div class="profile parallax">
         <header>
             <navbarVue />
         </header>

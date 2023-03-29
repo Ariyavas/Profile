@@ -1,4 +1,9 @@
 <template>
+    <div class="portfolio" :style="{
+        display: useDatastore.statuspage ? 'none' : ''
+    }">
+        <img src="../picture/Blue and Black Modern Resume.png" alt="portfolio">
+    </div>
     <div class="home-profile" :style="{
         display: useDatastore.statuspage == 'home' ? '' : 'none'
     }">
@@ -14,14 +19,28 @@
             </p>
         </div>
     </div>
-    <div>
+    <div :style="{
+        display: useDatastore.statuspage == 'skill' ? '' : 'none'
+    }">
         <skillVue />
+    </div>
+    <div :style="{
+        display: useDatastore.statuspage == 'about' ? '' : 'none'
+    }">
+        <aboutVue />
+    </div>
+    <div :style="{
+        display: useDatastore.statuspage == 'project' ? '' : 'none'
+    }">
+        <projectVue />
     </div>
 </template>
 
 <script>
 import { useCounterStore } from '../stores/counter';
 import skillVue from '../components/skill.vue'
+import aboutVue from '../components/about.vue';
+import projectVue from '../components/project.vue';
 export default {
     data() {
         return {
@@ -39,6 +58,8 @@ export default {
     },
     components: {
         skillVue,
+        aboutVue,
+        projectVue
     }
 }
 </script>
