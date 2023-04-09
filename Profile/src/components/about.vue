@@ -53,6 +53,7 @@
     <div>
       <footer>
         <span>Thanks for reading.</span>
+        {{ age }}
       </footer>
     </div>
   </div>
@@ -64,7 +65,7 @@ export default {
     return {
       data: [
         { t: 'MY NAME IS :', st: 'Ariyavas Phaipong' },
-        { t: 'AGE :', st: '22' },
+        { t: 'AGE :', st: "22" },
         { t: 'GRADUATE :', st: 'Kasetsart University' },
         {
           t: 'VISIONARY :',
@@ -97,7 +98,7 @@ export default {
         'I can use XAMPP to create localhost.',
         'I am ready to study new tools.'
       ],
-      dataotherExp: ["I've used sql database and mongodb in my project."]
+      dataotherExp: ["I've used sql database and mongodb in my project."],
     }
   }
 }

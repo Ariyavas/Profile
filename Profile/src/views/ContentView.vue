@@ -2,13 +2,15 @@
   <div class="portfolio" :style="{
     display: useDatastore.statuspage ? 'none' : ''
   }">
-  <img src="https://files.fm/thumb_show.php?i=vzedwdkqq" alt="">
+    <img src="https://i.ibb.co/k0s2Ydp/Blue-and-Black-Modern-Resume.png" alt="">
   </div>
   <div class="home-profile" :style="{
     display: useDatastore.statuspage == 'home' ? '' : 'none'
   }">
     <div class="profile-img">
-      <img src="https://st2.depositphotos.com/1104517/11967/v/950/depositphotos_119675554-stock-illustration-male-avatar-profile-picture-vector.jpg" alt="">
+      <img
+        src="https://st2.depositphotos.com/1104517/11967/v/950/depositphotos_119675554-stock-illustration-male-avatar-profile-picture-vector.jpg"
+        alt="">
     </div>
     <div class="profile-content">
       <h2>Hi!, My name is Ariyavas Phaipong</h2>
