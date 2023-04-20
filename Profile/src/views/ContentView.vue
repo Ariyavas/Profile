@@ -5,8 +5,8 @@
       display: useDatastore.statuspage ? 'none' : ''
     }"
   >
-    <a href="https://ibb.co/q0rjYV2">
-      <img src="https://i.ibb.co/s5VR9zX/Blue-and-Black-Modern-Resume.png" alt="" />
+    <a href="https://i.ibb.co/F0j0npS/Resume-Mr-Ariyavas.png">
+      <img src="https://i.ibb.co/qWPWx6t/Resume-Mr-Ariyavas.png" alt="" />
     </a>
   </div>
   <div
@@ -17,13 +17,14 @@
   >
     <div class="profile-img">
       <img
-        src="https://st2.depositphotos.com/1104517/11967/v/950/depositphotos_119675554-stock-illustration-male-avatar-profile-picture-vector.jpg"
-        alt=""
+        src="https://i.ibb.co/SNLKCT4/341122184-231686799534825-7877547010569626784-n.jpg"
+        alt="Profile"
       />
     </div>
     <div class="profile-content">
       <h2>Hi!, My name is Ariyavas Phaipong</h2>
       <p>I'm looking for a back-end job, is anyone interested in viewing my portfolio?</p>
+      <a href="" @click="test">LET GO</a>
     </div>
   </div>
   <div
@@ -64,6 +65,7 @@ export default {
   },
   methods: {
     test() {
+      // this.useDatastore.setstatuspage(false)
       console.log(this.useDatastore.statuspage)
     }
   },
