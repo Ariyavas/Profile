@@ -6,7 +6,7 @@
     }"
   >
     <a href="https://i.ibb.co/F0j0npS/Resume-Mr-Ariyavas.png">
-      <img src="https://i.ibb.co/qWPWx6t/Resume-Mr-Ariyavas.png" alt="" />
+      <img src="https://i.ibb.co/j5msC2K/Resume-Mr-Ariyavas-1.png" alt="" />
     </a>
   </div>
   <div
